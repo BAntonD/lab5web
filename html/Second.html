@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/second.css"> <!-- Шлях до CSS файлу -->
+  <title>Чат</title>
+</head>
+
+<body>
+<div class="chat-container">
+  <div class="user1">
+    <label >Користувач 1</label>
+    <input type="text" id="user1" class="message-input">
+    <button onclick="sendMessage('user1')">Надіслати</button>
+  </div>
+  <div class="chat" id="chat"></div>
+  <div class="user2">
+    <label >Користувач 2</label>
+    <input type="text" id="user2" class="message-input">
+    <button onclick="sendMessage('user2')">Надіслати</button>
+  </div>
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+
+</html>
